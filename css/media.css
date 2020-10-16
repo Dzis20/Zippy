@@ -9,6 +9,13 @@
         max-width: 767px;
         padding: 0 20px;
     }
+
+    .projects-list {
+        flex-wrap: wrap;
+    }
+    .projects-item {
+        width: 50%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -76,16 +83,41 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: #242B33;
+        background-color: #62497c;
         z-index: 2;
-        padding-top: 125px;
+        padding-top: 100px;
         transition: 1s;
     }
     ul.main-nav li.main-nav-item {
         margin-left: 0;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
     ul.main-nav.active {
         left: 0;
         transition: 1s;
     }
+
+    
 }
+@media (max-width: 600px) {
+    .welcome-top {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome-top p {
+        max-width: 100%;
+        padding-top: 30px;
+    }
+    .welcome-list, .pricing-list {
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 500px) {
+    .projects-item {
+        width: 100%;
+    }
+}
+
