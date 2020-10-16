@@ -1,0 +1,191 @@
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Helvetica'; */
+    /* font-family: 'Roboto'; */
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url('../img/header-background.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    max-height: 694px;
+    color: #fff;
+}
+.header-top {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+p.logo {
+    font-size: 30px;
+    line-height: 6.9px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul.main-nav {
+    display: flex;
+}
+ul.main-nav li.main-nav-item {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+ul.main-nav li.main-nav-item:first-child {
+    margin-left: 0;
+}
+
+ul.main-nav li.main-nav-item a {
+    color: #fff;
+}
+ul.main-nav li.main-nav-item:hover a, ul.main-nav li.main-nav-item.active a {
+    color: rgb(255, 226, 109);
+}
+.header-middle {
+    padding-bottom: 50px;
+}
+.swiper-container {
+    width: 100%;
+    height: 500px;
+}
+.swiper-slide {
+    padding-top: 45px;
+}
+.swiper-slide h1 {
+    max-width: 490px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.swiper-slide p.header-text {
+    font-size: 20px;
+    font-family: 'Roboto';
+    max-width: 490px;
+    margin-bottom: 40px;
+}
+.header-links {
+    display: flex;
+    margin-bottom: 220px;
+}
+a.header-btn {
+    display: inline-block;
+    width: 125px;
+    height: 43px;
+    background-color: #62497c;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+a.header-btn.header-btn-active {
+    background-color: rgb(255, 226, 109);
+    color: #000;
+    margin-right: 10px;
+}
+
+.swiper-pagination {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: auto !important;
+	left: auto !important;
+	margin: 0;
+}
+.swiper-pagination-bullet {
+	background: #fff !important;
+}
+.swiper-pagination-bullet-active {
+	background: white;
+}
+
+.welcome {
+    padding-top: 95px;
+    padding-bottom: 65px;
+}
+.welcome h2 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.welcome-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.welcome-top p {
+    max-width: 440px;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.welcome-list {
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.welcome-item-img {
+    width: 80px;
+    height: 80px;
+    background-color: #62497c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.welcome-item h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #62497c;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+p.welcome-item-text {
+    max-width: 165px;
+    font-size: 13px;
+    font-family: 'Helvetica';
+    color: #9a9a9a;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+a.welcome-item-btn {
+    display: inline-block;
+    background-color: rgb(255, 226, 109);
+    color: #62497c;
+    border-radius: 3px;
+    font-size: 10px;
+    width: 125px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}  
+a.welcome-item-btn-active {
+    background-color: #62497c;
+    color: #fff;
+    
+}
+
+
+  
+/* npm install normalize.css */
