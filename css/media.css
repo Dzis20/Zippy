@@ -97,6 +97,12 @@
         left: 0;
         transition: 1s;
     }
+    .swiper-button-next {
+        display: none;
+    }
+    .team-item {
+        width: 50%;
+    }
 
     
 }
@@ -117,6 +123,9 @@
 }
 @media (max-width: 500px) {
     .projects-item {
+        width: 100%;
+    }
+    .team-item {
         width: 100%;
     }
 }
