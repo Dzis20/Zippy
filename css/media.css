@@ -102,9 +102,7 @@
     }
     .team-item {
         width: 50%;
-    }
-
-    
+    } 
 }
 @media (max-width: 600px) {
     .welcome-top {

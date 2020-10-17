@@ -367,7 +367,7 @@ ul.pricing-item-nav li {
     top: 0;
 }
 .team-item-img-links a {
-margin: 0 6px;
+    margin: 0 6px;
 }
 .team-item-img:hover .team-item-img-links  {
     display: flex;
@@ -388,7 +388,6 @@ h3.team-item-job {
     padding: 90px 0 110px;
     background: #efefef;
 }
-
 .fotorama img {
     width: 100%;
 }
