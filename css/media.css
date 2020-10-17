@@ -102,7 +102,18 @@
     }
     .team-item {
         width: 50%;
-    } 
+    }
+    .singup-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .singup-form-row {
+        flex-direction: column;
+    }
+    .singup-form input {
+    width: 300px;
+    }
 }
 @media (max-width: 600px) {
     .welcome-top {
@@ -125,6 +136,17 @@
     }
     .team-item {
         width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .singup-form input {
+        width: 100%;
+    }
+    .singup-form-row {
+        width: 100%
+    }
+    .singup-email::placeholder {
+        font-size: 16px;
     }
 }
 

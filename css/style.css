@@ -16,6 +16,7 @@ h2.section-title {
     font-size: 44px;
     font-weight: bold;
     margin-bottom: 60px;
+    letter-spacing: 2px
 }
 .header {
     background-image: url('../img/header-background.png');
@@ -390,4 +391,114 @@ h3.team-item-job {
 }
 .fotorama img {
     width: 100%;
+}
+
+.singup {
+    padding: 65px 0 70px;
+    background-image: url('../img/singup-background.png');
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+.singup h2 {
+    color: #fff;
+}
+.singup .container {
+    max-width: 546px;
+}
+.singup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.singup-form-row {
+    display: flex;
+    margin-bottom: 25px;
+}
+.singup-email {
+    width: 396px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: rgb(254, 254, 254);
+    border: none;
+}
+.singup-email::placeholder {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(216, 216, 216);
+    line-height: 2.115;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.singup-btn {
+    width: 150px;
+    height: 55px;
+    background: #62497c;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.singup-btn-active {
+    background-color: rgb(255, 226, 109);
+    color: #62497c
+}
+
+.blog {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.blog-list {
+    display: flex;
+    justify-content: space-between;
+}
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+img.blog-item-img {
+    margin-bottom: 40px;
+}
+h3.blog-item-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+span.blog-item-date {
+    font-size: 14px;
+    font-family: 'Helvetica';
+    line-height: 24px;
+    color: #a1a1a1;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+p.blog-item-text {
+    font-family: 'Helvetica';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    max-width: 207px;
+    margin-bottom: 30px;
+}
+a.blog-item-link {
+    display: inline-block;
+    width: 125px;
+    height: 43px;
+    border-radius: 3px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #000
+}
+
+a.blog-item-link-active, a.blog-item-link:hover {
+    background-color: rgb(255, 226, 109);
+    color: #62497c
 }
