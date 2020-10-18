@@ -114,6 +114,17 @@
     .singup-form input {
     width: 300px;
     }
+    .contact {
+        flex-direction: column-reverse;
+    }
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .blog-list {
+        flex-direction: column;
+    }
 }
 @media (max-width: 600px) {
     .welcome-top {
@@ -137,8 +148,17 @@
     .team-item {
         width: 100%;
     }
-}
-@media (max-width: 400px) {
+    .contact-right {
+        padding: 0 20px;
+        padding-top: 60px;
+        width: 100%;
+    }
+    .contact-right h2 {
+        text-align: center;
+    }
+    form.contact-form input, form.contact-form textarea, form.contact-form input.contact-btn {
+        width: 100%;
+    }
     .singup-form input {
         width: 100%;
     }
@@ -148,5 +168,9 @@
     .singup-email::placeholder {
         font-size: 16px;
     }
+
+}
+@media (max-width: 400px) {
+    
 }
 

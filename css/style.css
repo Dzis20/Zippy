@@ -502,3 +502,64 @@ a.blog-item-link-active, a.blog-item-link:hover {
     background-color: rgb(255, 226, 109);
     color: #62497c
 }
+.contact {
+    display: flex;
+    background-color: rgb(255, 226, 109);
+}
+.contact-left {
+    width: 50%;
+}
+.contact-left img {
+    width: 100%;
+    height: 100%;
+}
+.contact-right {
+    padding-left: 45px;
+    padding-top: 60px;
+    width: 50%;
+}
+.contact-right h2 {
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.contact-form-row {
+    display: flex;
+    flex-direction: column;
+}
+form.contact-form label {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+form.contact-form input {
+    height: 45px;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0px 1px 1px 0px rgba(22, 22, 23, 0.09);
+    border: none;
+    width: 100%;
+    margin-bottom: 40px;
+    width: 315px;
+}
+form.contact-form textarea {
+    height: 145px;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0px 1px 1px 0px rgba(22, 22, 23, 0.09);
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    width: 315px;
+}
+
+form.contact-form input.contact-btn {
+    height: 44px;
+    background-color: rgb(98, 73, 124);
+    box-shadow: 0px 1px 1px 0px rgba(22, 22, 23, 0.09);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 315px;
+}
