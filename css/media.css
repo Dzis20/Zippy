@@ -112,7 +112,8 @@
         flex-direction: column;
     }
     .singup-form input {
-    width: 300px;
+        width: 300px;
+        margin-bottom: 20px;
     }
     .contact {
         flex-direction: column-reverse;
